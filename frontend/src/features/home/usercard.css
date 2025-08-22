@@ -1,0 +1,28 @@
+.user-card {
+  display: block;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 220px;
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.user-card:hover {
+  background: #f0f0f0;
+}
+
+.user-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: #111;
+}
+
+.user-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555;
+}
