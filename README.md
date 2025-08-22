@@ -8,20 +8,6 @@ This project uses **Node.js v22.17.1**.
 
 ## Repository Structure
 
-SearchTheProfessionals/
-├─ backend/
-│  ├─ server.js (or app.js)
-│  ├─ routes/
-│  ├─ models/
-│  ├─ controllers/
-│  └─ package.json
-├─ frontend/
-│  ├─ src/
-│  ├─ public/
-│  └─ package.json
-├─ .env
-└─ README.md
-
 ## Setup Instructions
 
 ### 1. Backend Setup
