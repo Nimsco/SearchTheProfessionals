@@ -1,14 +1,14 @@
-# Nims Project
+# SearchTheProfessionals
 
 ## Overview
-Nims is a simple React-based web application that allows users to create, view, and edit profiles, search for other users, and explore basic information. The project emphasizes a minimal design using black, white, and grey colors.
+SearchTheProfessionals is a simple React + TypeScript web application that allows users to create, view, and edit profiles, search for other users, and explore basic information. The project uses minimal design with black, white, and grey colors, and includes Toastify notifications for alerts and messages.
 
 ## Node.js Version
-This project uses **Node.js 18.x**.
+This project uses **Node.js v22.17.1**.
 
 ## Repository Structure
 
-nims-project/
+SearchTheProfessionals/
 ├─ backend/
 │  ├─ server.js (or app.js)
 │  ├─ routes/
@@ -49,34 +49,41 @@ cd frontend
 npm install
 
 3. Start the frontend development server:
-npm start
+npm run dev
 
-The frontend should now be running at `http://localhost:3000`.
+The frontend should now be running at the URL shown in the terminal (usually `http://localhost:5173` for Vite).
+
+---
 
 ## Features
 - User Registration & Login
 - View and edit user profiles
 - Search users by name
 - Minimal and responsive UI design
+- Toastify notifications for success/error messages
 - Static About Us and Experience pages
 
+---
+
 ## Deployment
-You can deploy the frontend using GitHub Pages:
-1. Build the project:
+To deploy the frontend using GitHub Pages:
+
+1. Build the frontend project:
 npm run build
 
-2. Use GitHub Pages or the `gh-pages` package to host the `/build` folder.
+2. Use GitHub Pages or the `gh-pages` package to host the `/dist` folder (Vite outputs build files to `/dist`).
+
+---
 
 ## GitHub Repository
 - The repository is **public** and includes both frontend and backend.
 - `.env` file is included so the project can run without additional configuration.
-- Link to repository: https://github.com/username/nims-project
+- Link to repository: https://github.com/username/SearchTheProfessionals
+
+---
 
 ## Future Improvements
 - Add profile pictures
-- Allow editing of experiences
+- Enable editing of user experiences instead of static Form
 - Real backend authentication with JWT
 - Dark mode toggle
-
-
-
